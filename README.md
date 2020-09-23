@@ -13,7 +13,7 @@ MDR API Repository
 	- the URI MUST be specified in all lower case
 	- only hyphens '-' can be used to separate words or path parameters for readability (no spaces or underscores)
 	- only underscores '_' can be used to separate words in query parameter names but not as part of the base URI
-5 Resource Names / Collections
+5. Resource Names / Collections
 	* Nouns MUST be used - not verbs for names.
 	* Resource names MUST be plural
 	+ Resource names MUST be lower-case and use only alphabetic characters and hyphens
@@ -27,4 +27,4 @@ MDR API Repository
 	- Based on JSON Spec
 	- Key names MUST be lower-case words, separated by an underscore character, ( _ ).
 	- Fields that represent arrays SHOULD be named using plural nouns
-8.Formatted date follow ISO8601
+8. Formatted date follow ISO8601
