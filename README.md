@@ -16,15 +16,15 @@ MDR API Repository
 5 Resource Names / Collections
 	* Nouns MUST be used - not verbs for names.
 	* Resource names MUST be plural
-	1 Resource names MUST be lower-case and use only alphabetic characters and hyphens
-	2 The hyphen character, ( - ), MUST be used as a word separator in URI path parameters
+	+ Resource names MUST be lower-case and use only alphabetic characters and hyphens
+	+ The hyphen character, ( - ), MUST be used as a word separator in URI path parameters
 6. Query
-	+ Literals/expressions in query strings SHOULD be separated using underscore ( _ ).
-	+ Query parameters values MUST be percent-encoded.
-	3 Query parameters MUST start with a letter and SHOULD be all in lower case. Only alpha characters, digits and the underscore ( _ ) character SHALL be used.
-	4 Query parameters SHOULD be optional.
+	- Literals/expressions in query strings SHOULD be separated using underscore ( _ ).
+	- Query parameters values MUST be percent-encoded.
+	- Query parameters MUST start with a letter and SHOULD be all in lower case. Only alpha characters, digits and the underscore ( _ ) character SHALL be used.
+	- Query parameters SHOULD be optional.
 7. Field Names
-	7.1 Based on JSON Spec
-	7.2 Key names MUST be lower-case words, separated by an underscore character, ( _ ).
-	7.3 Fields that represent arrays SHOULD be named using plural nouns
+	- Based on JSON Spec
+	- Key names MUST be lower-case words, separated by an underscore character, ( _ ).
+	- Fields that represent arrays SHOULD be named using plural nouns
 8.Formatted date follow ISO8601
