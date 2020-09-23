@@ -1,7 +1,10 @@
 # mdr-api-design-standard
 MDR API Repository
 
-Rest API Permen Naming Conventions
+### Table of Contents <a name="TOC"></a>
+- [Rest API Permen Naming Conventions](#1)
+
+## Rest API Permen Naming Conventions <a name="1"></a>
 
 1. URIs follow RFC 3986 Spec.
 2. URI component : https://36.89.146.92:8040/namespace/project-name/v1/search
