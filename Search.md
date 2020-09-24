@@ -1,4 +1,6 @@
-## Search service
+## Example of Search Service Based on Permen 4.2
+This document follow the OSDU Search Service
+https://community.opengroup.org/osdu/platform/system/search-service/-/blob/master/docs/tutorial/SearchService.md
 
 ### Table of contents <a name="TOC"></a>
 - [Query](#query)
@@ -25,9 +27,9 @@
 Data Ecosystem search provides a JSON-style domain-specific language that you can use to execute queries. Query request URL and samples are as follows:  
 
 ```
-POST /api/search/v2/query
+POST http://36.89.146.92:8040/services/
 {
-  "kind": "basin:1.0.0",
+  "kind": "{namespace}:basin:{version}",
   "query": "data.AreaType:Basin",
   "offset": 0,
   "limit": 30,
